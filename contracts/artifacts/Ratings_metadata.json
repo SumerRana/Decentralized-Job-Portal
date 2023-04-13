@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_applicantRating",
+						"type": "uint8"
+					}
+				],
+				"name": "addApplicantRating",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "applicantRatings",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "applicantID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "appliantRating",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					}
+				],
+				"name": "getApplicantRating",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ratings.sol": "Ratings"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ratings.sol": {
+			"keccak256": "0xb54561037bcb2b5ee9731274ef58572a49e17422b90e5e2f11256b707c487427",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4f3f9a4c7716293221bc24f99ce2635e700ee1653506906f90c808d1f87b845",
+				"dweb:/ipfs/QmZ7Qoka2jwFu2wBpt47ekCabLAxMJewprfWJU8QVX3vjN"
+			]
+		}
+	},
+	"version": 1
+}

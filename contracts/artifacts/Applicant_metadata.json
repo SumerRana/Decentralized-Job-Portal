@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_skill",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ApplicantType",
+						"type": "uint256"
+					}
+				],
+				"name": "addApplicant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicationId",
+						"type": "uint256"
+					}
+				],
+				"name": "getApplicant",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicationId",
+						"type": "uint256"
+					}
+				],
+				"name": "getApplicantType",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Applicant.sol": "Applicant"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Applicant.sol": {
+			"keccak256": "0xd3426146fd93f9a3c1c6e8bcec60dcd34ec4b41a5a07b291166bd34a0d311ebc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e62152a48bf631bc3db656fd27a93b62aa47866e4c2e24b94e33ab4ee1dc6d7b",
+				"dweb:/ipfs/QmeUb2mqGKk4ruAKUr7P7PsSwZVQv4gJFDm7PMESEGygzi"
+			]
+		}
+	},
+	"version": 1
+}

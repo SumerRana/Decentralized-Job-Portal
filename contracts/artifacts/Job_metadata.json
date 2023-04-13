@@ -1,0 +1,293 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Jobs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "employer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "JobTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "JobDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "RequiredQualifications",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "Salary",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "Location",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "minimumAge",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "requiredSkill",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "LastDate",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "applicationId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_jobId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_skill",
+						"type": "string"
+					}
+				],
+				"name": "applyForJob",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_JobId",
+						"type": "uint256"
+					}
+				],
+				"name": "getJob",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "JobTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "JobDescrition",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "RequiredQualifications",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "Salary",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "Location",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "minimumAge",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "requiredSkill",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "LastDate",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "jobId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_employer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_JobTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_JobDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_RequiredQualifications",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_Salary",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "_Location",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_minimumAge",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_requiredSkill",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_LastDate",
+						"type": "string"
+					}
+				],
+				"name": "postJob",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Job.sol": "Job"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Job.sol": {
+			"keccak256": "0x4c367c4ce51b160b156b7831baef38cbf7e3132411d3c640655326bf73f8ed4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d393af87bc8ceecf629b0ba4947f5590b65dbc572fc12d4e74244003dcd6f1e",
+				"dweb:/ipfs/QmdppYQXYrfdX9oBmocmgd7sQ7EoBczhNc5JR5rhy51FaE"
+			]
+		}
+	},
+	"version": 1
+}
